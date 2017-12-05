@@ -1,0 +1,24 @@
+{
+  "name": "functions-cron",
+  "version": "1.0.0",
+  "description": "Google App Engine provides a Cron service. Using this service for scheduling and Google Cloud Pub/Sub for distributed messaging, you can build an application to reliably schedule tasks which can trigger Google Cloud Functions.",
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^5.5.1",
+    "firebase-functions": "^0.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firebase/functions-cron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firebase/functions-cron/issues"
+  },
+  "homepage": "https://github.com/firebase/functions-cron#readme"
+}
